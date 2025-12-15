@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "check-format": "npx eslint ./src || npx prettier ./src --check"
+    "check-format": "npx eslint ./src ; npx prettier ./src --check"
   },
   "repository": {
     "type": "git",
